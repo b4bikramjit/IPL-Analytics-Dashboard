@@ -124,8 +124,9 @@ st.set_page_config(layout="wide")
 pages = [
     st.Page("home.py", title="Home", icon=":material/home:"),
     st.Page("overall.py", title="Overall Analytics", icon=":material/monitoring:"),
-    st.Page("players.py", title="Player Analytics", icon=":material/groups:"),
-    st.Page("teams.py", title="Team Analytics", icon=":material/group_work:")
+    st.Page("teams.py", title="Team Analytics", icon=":material/group_work:"),
+    st.Page("players.py", title="Player Analytics", icon=":material/groups:")
+    
 ]
 
 selected_page = st.navigation(pages=pages, position="top")
