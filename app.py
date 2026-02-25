@@ -227,10 +227,5 @@ pages = [
     
 ]
 
-<<<<<<< HEAD
 selected_page = st.navigation(pages=pages, position="sidebar")
 selected_page.run()
-=======
-selected_page = st.navigation(pages=pages, position="top")
-selected_page.run()
->>>>>>> bb538eb88b2b954e3fc4c77401b32ccc7376a9b9
